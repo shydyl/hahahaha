@@ -2,6 +2,7 @@
 In order to verify the effectiveness of the model, we conduct experiments on datasets other than FFHQ.
 ## Results on Church pre-train
 ### Church to Haunted House
+![test](./0003.png "ceshi")
 ### Church to Vangogh village
 
 ## Some additional experiments for KAE
