@@ -7,6 +7,8 @@ In order to verify the effectiveness of the model, we conduct experiments on dat
 
 ## Some additional experiments for KAE
 ### Generate Gradient Process
-We set $\tau$ as 20 training the model and set $\tau$ from 0 to 20 \(total 21\) generating images. We show experimental results for different $\tau$ \(from samll to big\)
+We set $\tau$ as 20 training the model and set $\tau$ from 0 to 20 \(total 21\) generating images. We show experimental results for different $\tau$ \(from samll to big\).
+![test](./FFHQ2Modigliani.gif "FFHQ2Modigliani")
+
 ### Adapt to double target domain
 We 
