@@ -2,8 +2,8 @@
 In order to verify the effectiveness of the model, we conduct experiments on datasets other than FFHQ.
 ## Results on Church pre-train
 ### Church to Haunted House
-![test](./0003.png "ceshi")
-### Church to Vangogh village
+![img](https://github.com/shydyl/hahahaha/blob/main/C2H.png "FFHQ2Modigliani")
+
 
 ## Some additional experiments for KAE
 ### Generate Gradient Process
@@ -12,4 +12,13 @@ We set $\tau$ as 20 training the model and set $\tau$ from 0 to 20 \(total 21\) 
 
 ### Adapt to double target domain
 We modify Eq 5 and 6 as follows：  
-$$\mathbf{w}_s = \sum_{i = 2}^d \bm{\upsilon}_i^{\top}\mathbf{w}\bm{\upsilon}$$
+<div align=center>
+<img src="https://github.com/shydyl/hahahaha/blob/main/eq5.png" width="180" height="70">
+</div>
+
+<div align=center>
+<img src="https://github.com/shydyl/hahahaha/blob/main/eq6.png" width="280" height="20">
+</div>
+
+We mix double domain and the results as shown below:
+![img](https://github.com/shydyl/hahahaha/blob/main/mix_meta_baby.png "mix_meta_baby")
