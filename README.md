@@ -11,4 +11,5 @@ We set $\tau$ as 20 training the model and set $\tau$ from 0 to 20 \(total 21\) 
 ![img](https://github.com/shydyl/hahahaha/blob/main/FFHQ2Modigliani.gif "FFHQ2Modigliani")
 
 ### Adapt to double target domain
-We 
+We modify Eq 5 and 6 as follows：  
+$$\mathbf{w}_s = \sum_{i = 2}^d \bm{\upsilon}_i^{\top}\mathbf{w}\bm{\upsilon}$$
